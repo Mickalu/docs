@@ -13,6 +13,19 @@ EXPOSE 3000
 ```
 This Dockerfile is for a Node.js app.
 
+### multiple docker
+Il est possible d'avoir plusieurs fichiers Dockerfile dans un même projet afin de pouvoir lancer notre app de façon différente. Exemple si nous voulions un fichier Dockerfile de production et un autre de dev. 
+Pour cela il faut créer un autre fichier dockerfile avec un nom différent comme par exemple :
+```
+Dockerfile.dev
+```
+
+For running this file use this command : 
+```
+docker build -f Dockerfile.dev .
+```
+
+
 For build this i;age we need to use the command : 
 ```
 docker build -t getting-started .
