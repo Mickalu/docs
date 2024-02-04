@@ -88,8 +88,26 @@ dh
 X
 ```
 
-replace letter and back directly to visual mode:
+replace caractere and back directly to visual mode:
 ```
 r
 ```
 
+If want replace multiple caractere can with count before :
+```
+hello la team
+5rx
+
+xxxxx la team
+```
+
+On peut exécuter des commandes comme avec un vrai terminal avec le mode : et 
+```
+:!ls
+```
+Par exemple
+
+Pour lire la réponse de notre commande on peut faire :
+```
+:!r ls
+```
