@@ -93,3 +93,13 @@ replace letter and back directly to visual mode:
 r
 ```
 
+Pour ouvrir avec l'explorateur
+```
+        <enter>         Open the file in the current window.       |netrw-cr|
+        o               Horizontally split window and display file |netrw-o|
+        v               Vertically split window and display file   |netrw-v|
+        p               Use the |preview-window|                   |netrw-p|
+        P               Edit in the previous window                |netrw-P|
+        t               Open file in a new tab                     |netrw-t|
+
+```
